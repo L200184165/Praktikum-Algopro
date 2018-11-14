@@ -1,0 +1,11 @@
+## Program Identitas diri. Dibuat oleh Irfan L200184165
+Nama = 'Muhammad Irfan'
+Alamat = 'Bona Sarana Indah Blok E no 4'
+Tempat_Tanggal_Lahir = 'Surakarta, 13 Juli 2000'
+Agama = 'Islam'
+Jenis_Kelamin = 'Laki-laki'
+Golongan_Darah = 'O'
+Status = 'Belum Menikah'
+Pekerjaan = 'Mahasiswa/Pelajar'
+No_HP = '081906396004'
+Kewarganegaraan = 'Indonesia'
