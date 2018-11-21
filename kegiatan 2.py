@@ -10,5 +10,3 @@ while d<3:
         d=d+1
 if d==3:
     print('maaf anda telah mencoba 3 kali, akses anda di tolak')
-
-
