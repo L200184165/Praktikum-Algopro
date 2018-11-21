@@ -11,6 +11,3 @@ elif 15.00 <= b <= 17.59 :
 elif 18.00 <= b <= 23.59 :
     b = "Malam"
 print("Selamat " + b + " " + a)
-    
-
-
