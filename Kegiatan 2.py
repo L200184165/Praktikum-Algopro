@@ -1,13 +1,10 @@
-def temperatureconvertion (C=0, F=32) :
-    if C!=0 and F==32:
-        F=float(F)
-        C=float(C)
-        F=((C*9/5)+32)
-        print('Temperature',C,'Celcius equivalent with',F,'Fahrenheit')
-    elif C==0 and F!=32:
-        F=float(F)
-        C=float(C)
-        C=(F-32)*5/9
-        print('Temperature',F,'Fahrenheit equivalent with',C,'Celcius')
-    else :
-        print('Temperature',C,'Celcius equivalent with',F,'Fahrenheit')
+hiya = open("L200184165.txt", "r")
+NIM = hiya.readline()
+TTL = hiya.readline()
+Nama = hiya.readline()
+hiya.close()
+
+import shelve
+hiya2 = shelve.open('L200184165.data')
+hiya2['data'] = [NIM, TTL, Nama]
+hiya2.close()
